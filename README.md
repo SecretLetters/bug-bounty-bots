@@ -12,7 +12,7 @@ It only aggregates already-public metadata (NVD, GitHub PoC indexes, and publish
 From a fresh machine, with `git` and Python 3.10+ on your PATH:
 
 ```bash
-git clone https://github.com/hackbot1x-del/bug-bounty-bots.git ~/bounty-pipeline && bash ~/bounty-pipeline/install.sh
+git clone https://github.com/SecretLetters/bug-bounty-bots.git ~/bounty-pipeline && bash ~/bounty-pipeline/install.sh
 ```
 
 `install.sh` is idempotent. It checks for Python 3.10+ (stdlib only; no pip packages) and clones or updates [arkadiyt/bounty-targets-data](https://github.com/arkadiyt/bounty-targets-data). The first clone of that dataset can take several minutes because the digest diffs program history over 24–72 hours.
@@ -20,7 +20,7 @@ git clone https://github.com/hackbot1x-del/bug-bounty-bots.git ~/bounty-pipeline
 To install into a different directory:
 
 ```bash
-git clone https://github.com/hackbot1x-del/bug-bounty-bots.git /path/to/dir && bash /path/to/dir/install.sh
+git clone https://github.com/SecretLetters/bug-bounty-bots.git /path/to/dir && bash /path/to/dir/install.sh
 ```
 
 Or set `BOUNTY_PIPELINE_DIR` and pass that path to both commands.

@@ -4,7 +4,7 @@
 # Default target: $BOUNTY_PIPELINE_DIR, or ~/bounty-pipeline
 #
 # From a fresh machine, clone this repo first, then run install.sh from it:
-#   git clone https://github.com/hackbot1x-del/bug-bounty-bots.git ~/bounty-pipeline \
+#   git clone https://github.com/SecretLetters/bug-bounty-bots.git ~/bounty-pipeline \
 #     && bash ~/bounty-pipeline/install.sh
 #
 # Copies the pipeline scripts, clones or updates arkadiyt/bounty-targets-data,
