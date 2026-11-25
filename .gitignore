@@ -1,0 +1,16 @@
+# Runtime data created by install.sh and the first digest/ranking run
+/state/
+/bounty-targets-data/
+/poc-in-github/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# Local junk
+*.log
+.DS_Store
